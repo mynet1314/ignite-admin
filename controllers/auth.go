@@ -6,8 +6,8 @@ import (
 	"time"
 
 	"github.com/gin-gonic/gin"
-	"github.com/go-ignite/ignite/models"
-	"github.com/go-ignite/ignite/ss"
+	"github.com/mynet1314/nlan/models"
+	"github.com/mynet1314/nlan/ss"
 )
 
 func (router *MainRouter) ResetAccountHandler(c *gin.Context) {

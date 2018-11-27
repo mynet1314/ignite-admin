@@ -1,7 +1,7 @@
 <template>
     <footer class="iadmin_footer footer">
         <p>
-            <strong>ignite-admin</strong> by <a href="http://github.com/go-ignite">go-ignite</a>. The source code is licensed
+            <strong>Nlan Admin</strong> by <a href="http://github.com/mynet1314">mynet1314</a>. The source code is licensed
             <a shref="http://opensource.org/licenses/mit-license.php">MIT</a>.
         </p>
     </footer>

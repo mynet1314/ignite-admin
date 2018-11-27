@@ -5,8 +5,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/go-ignite/ignite/models"
-	"github.com/go-ignite/ignite/ss"
+	"github.com/mynet1314/nlan/models"
+	"github.com/mynet1314/nlan/ss"
 )
 
 type CronJob struct {

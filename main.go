@@ -6,11 +6,11 @@ import (
 	"os"
 
 	"github.com/gin-gonic/gin"
-	"github.com/go-ignite/ignite-admin/controllers"
-	"github.com/go-ignite/ignite-admin/jobs"
-	utility "github.com/go-ignite/ignite-admin/utils"
-	"github.com/go-ignite/ignite/utils"
 	"github.com/go-xorm/xorm"
+	"github.com/mynet1314/nlan-admin/controllers"
+	"github.com/mynet1314/nlan-admin/jobs"
+	utility "github.com/mynet1314/nlan-admin/utils"
+	"github.com/mynet1314/nlan/utils"
 	"github.com/robfig/cron"
 )
 

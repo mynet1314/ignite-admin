@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="nav_wrap">
-      <img src="../assets/img/favicon-96x96.png" class="nav_logo" alt="ignite">
+      <img src="../assets/img/favicon-96x96.png" class="nav_logo" alt="mynet">
       <el-menu :default-active="activePath" class="nav_items" mode="horizontal" @select="handleSelect">
         <!-- use v-show for active. -->
         <el-menu-item v-show="!isLogin" index="/">首页</el-menu-item>
@@ -31,7 +31,7 @@ export default {
   },
   methods: {
     onLogout() {
-      localStorage.removeItem('ignite_admin_token')
+      localStorage.removeItem('nlan_admin_token')
       location.href = '/'
     },
     toggleBurger() {
@@ -47,7 +47,7 @@ export default {
     EventBus.$on(Event.LOGIN_SUCCESS, () => {
       this.isLogin = true
     })
-    if (localStorage.getItem('ignite_admin_token')) {
+    if (localStorage.getItem('nlan_admin_token')) {
       this.isLogin = true
     }
   },

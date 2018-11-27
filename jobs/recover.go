@@ -8,9 +8,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/go-ignite/ignite/models"
-	"github.com/go-ignite/ignite/ss"
 	"github.com/go-xorm/xorm"
+	"github.com/mynet1314/nlan/models"
+	"github.com/mynet1314/nlan/ss"
 )
 
 var (

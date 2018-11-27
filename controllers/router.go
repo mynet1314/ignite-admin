@@ -7,8 +7,8 @@ import (
 
 	"github.com/gin-gonic/contrib/jwt"
 	"github.com/gin-gonic/gin"
-	utility "github.com/go-ignite/ignite-admin/utils"
 	"github.com/go-xorm/xorm"
+	utility "github.com/mynet1314/nlan-admin/utils"
 )
 
 type MainRouter struct {

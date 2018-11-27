@@ -6,8 +6,8 @@ import (
 	"strconv"
 
 	"github.com/gin-gonic/gin"
-	"github.com/go-ignite/ignite/models"
-	"github.com/go-ignite/ignite/utils"
+	"github.com/mynet1314/nlan/models"
+	"github.com/mynet1314/nlan/utils"
 )
 
 func (router *MainRouter) InviteCodeListHandler(c *gin.Context) {

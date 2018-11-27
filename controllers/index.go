@@ -7,8 +7,8 @@ import (
 
 	jwt "github.com/dgrijalva/jwt-go"
 	"github.com/gin-gonic/gin"
-	utility "github.com/go-ignite/ignite-admin/utils"
-	"github.com/go-ignite/ignite/models"
+	utility "github.com/mynet1314/nlan-admin/utils"
+	"github.com/mynet1314/nlan/models"
 )
 
 func (router *MainRouter) PanelIndexHandler(c *gin.Context) {

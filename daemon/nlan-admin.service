@@ -1,0 +1,14 @@
+[Unit]
+Description=nlan-admin service
+After=network.target
+
+[Service]
+WorkingDirectory=/path/to/nlan-admin
+ExecStart=/path/to/nlan-admin/nlan-admin
+User=username
+Restart=always
+KillMode=process
+RestartSec=2s
+
+[Install]
+WantedBy=multi-user.target

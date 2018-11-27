@@ -1,6 +1,6 @@
-ignite-admin
-ignite-admin.exe
-ignite-admin.exe~
+nlan-admin
+nlan-admin.exe
+nlan-admin.exe~
 .DS_Store
 conf/config.toml
 node_modules/
